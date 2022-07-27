@@ -18,6 +18,10 @@
     color: rgba(255, 255, 255, 0);
 }
 
+.header-srction{
+    margin-top: 90px;
+}
+
 .carousel-control-prev,
 .carousel-control-next {
     width: 70px;
@@ -32,10 +36,105 @@
 }
 
 
+.btn-book-now{
+    background-color: white;
+    color: rgba(63, 135, 245, 1);
+    font-size: 17px;
+}
+.btn-book-now:hover{
+    color: white;
+    background-color: rgba(63, 135, 245, 1);
+    border: 1px solid rgba(63, 135, 245, 1);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+.carousel-item img {
+    height: 700px;
+    object-fit: cover;
+    object-position: center;
+}
+@media screen and (min-width: 000px) and (max-width: 576px) {
+    .carousel-item img {
+        height: 700px;
+    }
+}
 @media screen and (max-width: 355px) {
     .navbar-brand {
         font-size: 0.8rem;
         font-weight: 700;
         color: rgb(0, 0, 0);
     }
+}
+
+
+/* hedaer section end */
+
+
+
+/* main section start */
+.main-section, .pricing-section, .client-section, .Frequently-section{
+    margin-top: 100px;
+}
+.hot-shadow{
+    box-shadow: 0 1rem 1.5rem rgba(63, 135, 245, 1);
+}
+.upp-hot{
+    margin-top: -5px;
+}
+.convention-info h2{
+    font-weight: 700;
+}
+.convention-info-btn{
+    color: white;
+    background-color: rgba(63, 135, 245, 1);
+    border: 1px solid rgba(63, 135, 245, 1);
+    box-shadow: 1px 1px 5px rgb(0, 0, 0);
+}
+.convention-info-btn:hover{
+    background-color: white;
+    color: rgba(63, 135, 245, 1);
+}
+.card-body ul{
+   padding-left: 0px;
+}
+.card-body ul li .fa-solid{
+    /* background-color: lightblue; */
+    color: rgb(58, 58, 58);
+    font-size: 19px;
+   padding-right: 10px;
+}
+.card-body li{
+    list-style: none;
+}
+.btn-hot-choose-plan{
+    font-weight: 700;
+    display: block;
+    background-color: rgb(255, 255, 255);
+    color: rgba(63, 135, 245, 1);
+}
+.btn-hot-choose-plan:hover{
+    border: 1px solid rgb(54, 54, 54);
+    color: rgb(255, 255, 255);
+    background-color: rgb(54, 54, 54);
+}
+.btn-choose-plan{
+    font-weight: 700;
+    display: block;
+    background-color: rgba(244, 150, 209, 0.1);
+    color: rgba(63, 135, 245, 1);
+}
+.btn-choose-plan:hover{
+    border: 1px solid rgba(63, 135, 245, 1);
+    color: rgb(255, 255, 255);
+    background-color: rgba(63, 135, 245, 1);
+}
+
+
+footer{
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: rgb(24, 24, 24);
 }
